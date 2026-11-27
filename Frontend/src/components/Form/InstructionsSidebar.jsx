@@ -14,7 +14,7 @@ export default function InstructionsSidebar() {
         <ol className="steps-list space-y-5 text-sm text-slate-700 leading-relaxed">
           <li>
             <strong className="text-slate-900">Company Type :</strong> Select the type of entity you want to register — 
-            <strong className="text-slate-900"> Private Limited</strong>, <strong className="text-slate-900">LLP</strong>, <strong className="text-slate-900">OPC</strong>, <strong className="text-slate-900">Partnership</strong>, <strong className="text-slate-900">Sole Proprietorship</strong> or <strong className="text-slate-900">Producer Company</strong>.
+            <strong className="text-slate-900"> Private Limited</strong>, <strong className="text-slate-900">LLP</strong>, <strong className="text-slate-900">OPC</strong>, <strong className="text-slate-900">Partnership</strong>, <strong className="text-slate-900">Sole Public Limited</strong> or <strong className="text-slate-900">Section 8 Company</strong>.
           </li>
 
           <li>
@@ -59,7 +59,7 @@ export default function InstructionsSidebar() {
           </li>
         </ol>
 
-        <div className="mt-8 flex gap-3 rounded-lg border border-orange-100 bg-orange-50 p-4 text-xs sm:text-sm text-orange-900">
+        {/* <div className="mt-8 flex gap-3 rounded-lg border border-orange-100 bg-orange-50 p-4 text-xs sm:text-sm text-orange-900">
           <FaInfoCircle className="mt-0.5 shrink-0 text-orange-600" />
           <div>
             <p>
@@ -71,7 +71,7 @@ export default function InstructionsSidebar() {
               and other official documents to avoid rejection or delay in your registration.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </aside>
   );

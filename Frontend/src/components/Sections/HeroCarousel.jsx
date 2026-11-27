@@ -11,7 +11,7 @@ const slides = [
     imageUrl: banner1,
     alt: "Company Registration Online India",
     caption: "Register Your Company Online",
-    subCaption: "Private Limited • LLP • OPC • Partnership • Proprietorship",
+    subCaption: "Private Limited • LLP • OPC • Partnership • Public Limited",
   },
   {
     id: 2,

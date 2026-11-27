@@ -15,8 +15,8 @@ const companyTypes = [
   "Limited Liability Partnership (LLP)",
   "One Person Company (OPC)",
   "Partnership Firm",
-  "Sole Proprietorship",
-  "Producer Company",
+  "Public Limited",
+  "Section 8 Company",
 ];
 
 const businessTypes = [

@@ -60,29 +60,29 @@ const companyTypes = [
     ],
     bestFor: "Small family or friends-run businesses",
   },
-  {
-    title: "Sole Proprietorship",
+    {
+    title: "Public Limited",
     icon: <FaStore size={24} aria-hidden="true" />,
     description:
-      "The simplest form of business, owned and run by one person, with no separate legal identity from the owner.",
+      "A company whose shares can be offered to the public and listed on a stock exchange, suited to large businesses that want to raise funds at scale.",
     points: [
-      "Single owner, quickest to start",
-      "Minimal compliance and low cost",
-      "Owner has unlimited liability",
+      "Minimum 3 directors and 7 shareholders",
+      "Limited liability and freely transferable shares",
+      "Can raise money from the public through an IPO",
     ],
-    bestFor: "Small shops, freelancers and local traders",
+    bestFor: "Large businesses planning to raise public funds or list on a stock exchange",
   },
   {
-    title: "Producer Company",
+    title: "Section 8 Company",
     icon: <FaSeedling size={24} aria-hidden="true" />,
     description:
-      "A company owned by primary producers such as farmers, formed to improve their income through collective activity.",
+      "A not-for-profit company formed to promote charity, education, science, sports, social welfare or similar causes, where profits are used only to further those objects.",
     points: [
-      "10 or more producers, or 2 producer institutions",
-      "Limited liability with a separate legal identity",
-      "Suited to farm produce, processing and marketing",
+      "Minimum 2 directors and 2 members",
+      "Profits cannot be paid out as dividends to members",
+      "Can apply for 12A / 80G registration for tax benefits",
     ],
-    bestFor: "Farmers, artisans and other primary producers",
+    bestFor: "NGOs, charitable and educational organisations, clubs and associations",
   },
 ];
 
@@ -119,21 +119,21 @@ const comparison = [
     entity: "No",
     registeredWith: "Registrar of Firms (optional)",
   },
-  {
-    type: "Sole Proprietorship",
-    law: "No separate incorporation law",
-    people: "1 owner",
-    liability: "Unlimited",
-    entity: "No",
-    registeredWith: "Licences such as GST / Udyam / Shop Act, as applicable",
-  },
-  {
-    type: "Producer Company",
-    law: "Companies Act, 2013 (Producer Companies chapter)",
-    people: "10 producers or 2 producer institutions",
+    {
+    type: "Public Limited",
+    law: "Companies Act, 2013",
+    people: "3 directors & 7 shareholders",
     liability: "Limited",
     entity: "Yes",
     registeredWith: "Registrar of Companies (MCA)",
+  },
+   {
+    type: "Section 8 Company",
+    law: "Companies Act, 2013 (Section 8)",
+    people: "2 directors & 2 members",
+    liability: "Limited",
+    entity: "Yes",
+    registeredWith: "Registrar of Companies (MCA), with Section 8 licence",
   },
 ];
 
@@ -233,14 +233,14 @@ export default function CompanyTypesSection() {
             </div>
           </div>
 
-          <div className="mt-6 mx-auto max-w-3xl flex items-start gap-3 rounded-xl border border-orange-100 bg-orange-50 p-4 text-xs sm:text-sm text-orange-900">
+          {/* <div className="mt-6 mx-auto max-w-3xl flex items-start gap-3 rounded-xl border border-orange-100 bg-orange-50 p-4 text-xs sm:text-sm text-orange-900">
             <FaInfoCircle className="mt-0.5 shrink-0 text-orange-600" aria-hidden="true" />
             <p>
               This information is general and for guidance only. Rules and requirements can change,
               and the right structure depends on your business, so please confirm details with our
               team or your professional advisor before deciding.
             </p>
-          </div>
+          </div> */}
         </div>
 
       </div>

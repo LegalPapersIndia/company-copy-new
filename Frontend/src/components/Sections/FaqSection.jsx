@@ -2,12 +2,8 @@
 
 export default function CompanyFAQSection() {
   return (
-    <section
-      id="faq"
-      className="py-2 md:py-4"
-    >
+    <section id="faq" className="py-2 md:py-4">
       <div className="w-full">
-        
         {/* Heading */}
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-navy-900 tracking-tight max-w-4xl mx-auto">
@@ -17,7 +13,6 @@ export default function CompanyFAQSection() {
         </div>
 
         <div className="grid md:grid-cols-2 items-start gap-4 lg:gap-6">
-          
           {/* LEFT COLUMN */}
           <div className="space-y-4">
             {[
@@ -31,8 +26,17 @@ export default function CompanyFAQSection() {
                 content: (
                   <>
                     <ul className="list-disc pl-6 space-y-1 marker:text-orange-500">
-                      <li><b>DSC (Digital Signature Certificate):</b> an electronic signature used to sign and file documents online. Directors and designated partners generally need one.</li>
-                      <li><b>DIN (Director Identification Number):</b> a unique number for every director or designated partner, which is usually applied for during incorporation.</li>
+                      <li>
+                        <b>DSC (Digital Signature Certificate):</b> an
+                        electronic signature used to sign and file documents
+                        online. Directors and designated partners generally need
+                        one.
+                      </li>
+                      <li>
+                        <b>DIN (Director Identification Number):</b> a unique
+                        number for every director or designated partner, which
+                        is usually applied for during incorporation.
+                      </li>
                     </ul>
                   </>
                 ),
@@ -58,9 +62,26 @@ export default function CompanyFAQSection() {
                   <>
                     <p>It depends on the entity type:</p>
                     <ul className="list-disc pl-6 mt-2 space-y-1 marker:text-orange-500">
-                      <li><b>Companies:</b> maintain accounts, appoint an auditor, file annual returns and financial statements, and file income tax returns</li>
-                      <li><b>LLPs:</b> file annual returns and a statement of accounts, and file income tax returns</li>
-                      <li><b>Partnership / Proprietorship:</b> file income tax returns and follow the licences and tax rules applicable to the business</li>
+                      <li>
+                        <b>Companies:</b> maintain accounts, appoint an auditor,
+                        file annual returns and financial statements, and file
+                        income tax returns
+                      </li>
+                      <li>
+                        <b>LLPs:</b> file annual returns and a statement of
+                        accounts, and file income tax returns
+                      </li>
+                      <li>
+                        <b>Partnership Firm:</b> file income tax returns and
+                        follow the licences and tax rules applicable to the
+                        business
+                      </li>
+                      <li>
+                        <b>Section 8 Companies:</b> file annual returns and
+                        financial statements like other companies, and follow
+                        the conditions of the Section 8 licence and any
+                        tax-exemption registrations
+                      </li>
                     </ul>
                   </>
                 ),
@@ -105,7 +126,7 @@ export default function CompanyFAQSection() {
               {
                 title: "Can I convert my business to another type later?",
                 content:
-                  "In many cases yes. For example, a proprietorship or partnership can be converted into a Private Limited Company or LLP, and an LLP or OPC can be converted as per the rules. The process and conditions differ, so please speak to our team before planning a conversion.",
+                 "In many cases yes. For example, a partnership firm can be converted into a Private Limited Company or LLP, a Private Limited Company can be converted into a Public Limited Company, and an LLP or OPC can be converted as per the rules. The process and conditions differ, so please speak to our team before planning a conversion.",
               },
               {
                 title: "Can I change the company name or address later?",
@@ -113,9 +134,9 @@ export default function CompanyFAQSection() {
                   "Yes. A company or LLP can change its name or registered office through the prescribed procedure, which usually involves approvals and filings with the authority.",
               },
               {
-                title: "Is a Producer Company only for farmers?",
+                title: "Is a Section 8 Company only for NGOs?",
                 content:
-                  "A Producer Company is meant for primary producers, mainly in agriculture and allied activities such as farming, dairy, fisheries, handloom and handicrafts. Its members must be primary producers or producer institutions.",
+                 "A Section 8 Company is meant for not-for-profit objects such as charity, education, science, sports, social welfare, research or protection of the environment. Its profits must be used to promote these objects and cannot be distributed to members as dividends.",
               },
             ].map((faq, i) => (
               <details

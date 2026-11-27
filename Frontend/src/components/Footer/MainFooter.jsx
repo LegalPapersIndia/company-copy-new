@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 import Logo from "../../Assest/Bottom.png";
+import india from "../../Assest/india.png";
 
 export default function MainFooter() {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ export default function MainFooter() {
               <span className="font-semibold text-white">
                 PRIVATE CONSULTANCY
               </span>{" "}
-              portal Owned by <b className="text-white">EASQUES</b>. We provide professional assistance for{" "}
+              portal Owned by <b className="text-white">EASRISE LEGALPAPERS MANAGEMENT PRIVATE LIMITED</b>. We provide professional assistance for{" "}
               <b className="text-white"> Company Registration</b>, application filing,
               document preparation and compliance support.
             </p>
@@ -106,20 +107,28 @@ export default function MainFooter() {
 
           {/* Portal Logo */}
           <div className="space-y-5 flex flex-col items-center md:items-start">
-            <h3 className="md:self-start relative pb-3 text-sm font-bold uppercase tracking-wider text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-8 after:rounded-full after:bg-orange-500">
-              Our Portal
-            </h3>
+  <h3 className="md:self-start relative pb-3 text-sm font-bold uppercase tracking-wider text-white after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-8 after:rounded-full after:bg-orange-500">
+    Trusted By
+  </h3>
 
-            <div className="flex flex-wrap items-center justify-center md:justify-start gap-4">
-              <div className="rounded-xl bg-white p-3 shadow-sm">
-                <img
-                  src={Logo}
-                  alt="Company Registration Portal"
-                  className="h-16 sm:h-20 w-auto object-contain"
-                />
-              </div>
-            </div>
-          </div>
+  <div className="flex flex-col items-center md:items-start gap-4">
+    <div className="rounded-xl bg-white p-3 shadow-sm">
+      <img
+        src={india}
+        alt="Azadi Ka Amrit Mahotsav"
+        className="h-16 sm:h-20 w-auto object-contain"
+      />
+    </div>
+
+    <div className="rounded-xl bg-white p-3 shadow-sm">
+      <img
+        src={Logo}
+        alt="FSSAI Registration Portal"
+        className="h-16 sm:h-20 w-auto object-contain"
+      />
+    </div>
+  </div>
+</div>
         </div>
 
         {/* Bottom Disclaimer */}
@@ -138,7 +147,7 @@ export default function MainFooter() {
           <p className="text-xs text-slate-500">
             Copyright © 2026 Company Registration Portal | All Rights Reserved | 
             Website Design, Developed &amp; Google Promotion by{" "}
-            <span className="text-slate-300 font-medium">EASRISE LEGALPAPERS MANAGEMENT (OPC) PRIVATE LIMITED</span>.
+            <span className="text-slate-300 font-medium">EASRISE LEGALPAPERS MANAGEMENT PRIVATE LIMITED</span>.
           </p>
         </div>
       </div>

@@ -46,8 +46,8 @@ export default function CompanyBenefitsSection() {
                       <li><strong>LLP:</strong> professionals and service firms wanting flexibility with limited liability</li>
                       <li><strong>OPC:</strong> a single founder who wants a company structure</li>
                       <li><strong>Partnership Firm:</strong> a small business run by two or more people</li>
-                      <li><strong>Sole Proprietorship:</strong> the simplest and quickest way to start small</li>
-                      <li><strong>Producer Company:</strong> farmers and primary producers working together</li>
+                     <li><strong>Public Limited:</strong> large businesses planning to raise funds from the public or list on a stock exchange</li>
+                      <li><strong>Section 8 Company:</strong> NGOs and charitable organisations working for social causes</li>
                     </ul>
                   </>
                 ),
@@ -120,9 +120,9 @@ export default function CompanyBenefitsSection() {
           <div className="space-y-4">
             {[
               {
-                title: "What is the difference between a company and a proprietorship?",
+                title: "What is the difference between a Private Limited and a Public Limited company?",
                 content:
-                  "A company is a separate legal entity with limited liability for its owners and can raise funds by issuing shares. A sole proprietorship has no separate identity from its owner, so the owner is personally responsible for all debts and obligations of the business.",
+                  "A Private Limited Company restricts the transfer of its shares, cannot invite the public to subscribe to them, and needs a minimum of 2 directors and 2 shareholders. A Public Limited Company can offer its shares to the public and list on a stock exchange, but needs at least 3 directors and 7 shareholders and follows stricter compliance.",
               },
               {
                 title: "Can one person start a company?",
@@ -140,10 +140,10 @@ export default function CompanyBenefitsSection() {
                   "You receive your incorporation or registration documents. Companies and LLPs generally also get a PAN and TAN along with incorporation. After that, you typically open a bank account and complete other registrations such as GST or Udyam, as applicable to your business.",
               },
               {
-                title: "Is a Producer Company different from a normal company?",
+               title: "Is a Section 8 Company different from a normal company?",
                 content: (
                   <>
-                    <p>Yes. A Producer Company is owned by primary producers such as farmers and is formed to improve their income through collective activity. Its members must be primary producers, and it is registered under the Companies Act with its own set of rules.</p>
+                   <p>Yes. A Section 8 Company is a not-for-profit company formed to promote objects such as charity, education, science, sports or social welfare. Its profits are used only to promote these objects and cannot be paid out as dividends to members. It is registered under the Companies Act and needs a licence under Section 8.</p>
                   </>
                 ),
               },

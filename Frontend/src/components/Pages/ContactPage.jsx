@@ -14,7 +14,7 @@ export default function ContactPage() {
           <span className="mx-auto mb-5 block h-1 w-16 rounded-full bg-orange-500"></span>
           <p className="text-base md:text-lg text-slate-600 max-w-3xl mx-auto">
             We're here to help you with your Company Registration, LLP Registration, 
-            Partnership or Proprietorship setup, or any business compliance needs. Reach out to us anytime!
+            Partnership or Public Limited setup, or any business compliance needs. Reach out to us anytime!
           </p>
         </div>
 
@@ -79,7 +79,7 @@ export default function ContactPage() {
           <p className="text-slate-600 text-base md:text-lg mb-4 max-w-2xl mx-auto">
             Prefer to reach us instantly? Use the phone number or email above — 
             our team is ready to assist you with Private Limited, LLP, OPC, Partnership, 
-            Sole Proprietorship, Producer Company registration, or any compliance queries.
+            Sole Public Limited, Section 8 Company Registration, or any compliance queries.
           </p>
           
           <p className="text-sm text-slate-500">

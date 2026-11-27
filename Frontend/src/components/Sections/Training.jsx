@@ -126,9 +126,9 @@ export default function CompanyTrainingWebinarSection() {
                 desc: "Clear comparison of liability, compliance and funding options to help you pick the right structure."
               },
               {
-                icon: <FaFileInvoice className="text-navy-700" size={22} aria-hidden="true" title="Small Business Structures" />,
-                title: "Sole Proprietorship vs Partnership Firm",
-                desc: "Understand the pros, cons and risks of the simplest business structures before you start."
+                icon: <FaFileInvoice className="text-navy-700" size={22} aria-hidden="true" title="Company Structures" />,
+                title: "Public Limited vs Private Limited Company",
+                desc: "Understand the differences in funding, compliance and control to decide which company structure suits your growth plans."
               },
               {
                 icon: <FaCheckCircle className="text-navy-700" size={22} aria-hidden="true" title="Post Incorporation" />,
@@ -136,9 +136,9 @@ export default function CompanyTrainingWebinarSection() {
                 desc: "Bank account, GST, Udyam and other key steps to complete after your company is registered."
               },
               {
-                icon: <FaCertificate className="text-navy-700" size={22} aria-hidden="true" title="Producer Company" />,
-                title: "How Producer Companies Work for Farmers",
-                desc: "Easy session for farmers and primary producers on forming and running a Producer Company."
+                icon: <FaCertificate className="text-navy-700" size={22} aria-hidden="true" title="Section 8 Company" />,
+                title: "How Section 8 Companies Work for NGOs",
+                desc: "Easy session for NGOs and charitable organisations on forming and running a Section 8 (non-profit) Company."
               }
             ].map((webinar, index) => (
               <div 

@@ -38,7 +38,7 @@ export default function CompanyPrivacyPolicyPage() {
             <p className="text-slate-700 leading-relaxed">
               This website is a privately owned portal operated by a professional consultancy firm. 
               We provide assistance and guidance for Private Limited Company, LLP, OPC, Partnership Firm, 
-              Sole Proprietorship and Producer Company registration, along with related compliance services.
+              Sole Public Limited and Section 8 Company Registration, along with related compliance services.
             </p>
             <p className="text-slate-700 leading-relaxed mt-4">
               This Privacy Policy explains how we collect, use, store, and protect your personal information 

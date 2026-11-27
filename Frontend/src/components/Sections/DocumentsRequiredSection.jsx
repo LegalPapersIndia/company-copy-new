@@ -58,27 +58,27 @@ const categories = [
     ],
   },
   {
-    id: "proprietorship",
-    label: "Sole Proprietorship",
-    documents: [
-      { title: "PAN Card of the Owner", icon: pan },
-      { title: "Aadhaar Card of the Owner", icon: aadhar },
-      { title: "Photograph of the Owner", note: "(JPG, max 100 KB)", icon: photo },
-      { title: "Business Address Proof", note: "(Electricity bill / Rent agreement + NOC)", icon: address },
-      { title: "Business Name & Activity", note: "(Used for registrations like GST / Udyam, as applicable)", icon: business },
-      { title: "Bank Account Details", note: "(Cancelled cheque / Bank statement)", icon: business },
+    id: "Public Limited",
+    label: "Public Limited",
+        documents: [
+      { title: "PAN Card of All Directors & Shareholders", note: "(Minimum 3 directors and 7 shareholders)", icon: pan },
+      { title: "Aadhaar Card of All Directors & Shareholders", icon: aadhar },
+      { title: "Photograph of All Directors", note: "(JPG, max 100 KB)", icon: photo },
+      { title: "Address Proof of Directors", note: "(Bank statement / Utility bill, recent)", icon: address },
+      { title: "Registered Office Address Proof", note: "(Utility bill + NOC from owner / Rent agreement)", icon: address },
+      { title: "Proposed Company Names & Business Objects", note: "(2-3 name options and main activities)", icon: business },
     ],
   },
   {
     id: "producer",
-    label: "Producer Company",
-    documents: [
-      { title: "PAN Card of All Members / Directors", icon: pan },
-      { title: "Aadhaar Card of All Members / Directors", icon: aadhar },
-      { title: "Photograph of Members / Directors", note: "(JPG, max 100 KB)", icon: photo },
-      { title: "Proof of Being a Primary Producer", note: "(Land records / Farmer ID / Producer proof)", icon: business },
+    label: "Section 8 Company",
+       documents: [
+      { title: "PAN Card of All Directors & Members", icon: pan },
+      { title: "Aadhaar Card of All Directors & Members", icon: aadhar },
+      { title: "Photograph of All Directors", note: "(JPG, max 100 KB)", icon: photo },
+      { title: "Address Proof of Directors", note: "(Bank statement / Utility bill, recent)", icon: address },
       { title: "Registered Office Address Proof", note: "(Utility bill + NOC from owner / Rent agreement)", icon: address },
-      { title: "Proposed Company Names & Business Objects", note: "(2-3 name options and main activities)", icon: business },
+      { title: "Proposed Company Names & Non-Profit Objects", note: "(2-3 name options, charitable objects and planned activities)", icon: business },
     ],
   },
 ];
@@ -164,14 +164,14 @@ export default function DocumentsRequiredSection() {
         </div>
 
         {/* Bottom Note */}
-        <div className="mt-12 md:mt-14 mx-auto max-w-2xl flex items-start gap-3 rounded-xl border border-orange-100 bg-orange-50 p-4 md:p-5 text-sm md:text-base text-orange-900">
+        {/* <div className="mt-12 md:mt-14 mx-auto max-w-2xl flex items-start gap-3 rounded-xl border border-orange-100 bg-orange-50 p-4 md:p-5 text-sm md:text-base text-orange-900">
           <FaInfoCircle className="mt-1 shrink-0 text-orange-600" aria-hidden="true" />
           <p>
             All documents must be clear and recent. Directors and designated partners usually also need a 
             Digital Signature Certificate (DSC), and our team will guide you on it. Exact requirements may 
             vary by state and entity type, and government fees are extra as applicable.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

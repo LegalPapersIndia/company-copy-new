@@ -151,8 +151,8 @@ export default function TermsAndConditionsPage() {
               <li>Limited Liability Partnership (LLP) Registration</li>
               <li>One Person Company (OPC) Registration</li>
               <li>Partnership Firm Registration</li>
-              <li>Sole Proprietorship Setup</li>
-              <li>Producer Company Registration</li>
+              <li>Sole Public Limited Setup</li>
+              <li>Section 8 Company Registration</li>
               <li>Documentation, Filing and Compliance Assistance</li>
             </ul>
 
